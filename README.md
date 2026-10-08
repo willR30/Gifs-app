@@ -1,5 +1,7 @@
 # React + TypeScript + Vite
 
+This project is a simple GIF search application built with React, TypeScript, and Vite. It lets users search for GIFs by keyword, view recent searches, and display matching results in a clean card-based layout. The app is a lightweight front-end project that demonstrates React state management, API integration, and reusable UI components.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
