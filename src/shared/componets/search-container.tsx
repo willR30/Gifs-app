@@ -16,11 +16,7 @@ export const SearchContainer = ({ placeholder, onQuery }: Props) => {
         setQuery("")
     };
 
-    const handleKeySearch = (key: string) => {
-        if (key == "Enter") {
-            alert(query)
-        }
-    }
+    
 
     //el use efect es para procesos asincronos 
     //en este caso al escribir el input se hace la peticion al api
@@ -48,7 +44,7 @@ export const SearchContainer = ({ placeholder, onQuery }: Props) => {
                     type="text"
                     value={query}
                     onChange={(event) => setQuery(event.target.value)}
-                    onKeyDown={(evento) => handleKeySearch(evento.key.toString())}
+                   // onKeyDown={(evento) => handleKeySearch(evento.key.toString())}
 
                 ></input>
                 <button
